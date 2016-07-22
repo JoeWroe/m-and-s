@@ -17,7 +17,7 @@ describe "User Stories" do
     it "As a retailer,
     So that I know customers are being charged for correct delivery fees,
     I'd like the basket to know what the delivery charges are." do
-
+      expect(basket.delivery_charge_rules).to eq(delivery_charge_rules)
     end
   end
 end
