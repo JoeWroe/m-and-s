@@ -11,4 +11,13 @@ describe "User Stories" do
       expect(basket.product_catalog).to eq(product_catalog)
     end
   end
+
+  describe "User Story Two" do
+
+    it "As a retailer,
+    So that I know customers are being charged for correct delivery fees,
+    I'd like the basket to know what the delivery charges are." do
+
+    end
+  end
 end
