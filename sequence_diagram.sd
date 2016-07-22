@@ -1,4 +1,4 @@
 Basket:class
 Catalog:Class
 
-Basket:product_catalog=Catalog.avaliable_products( )
+Basket:product_catalog=Catalog.product_catalog( )
