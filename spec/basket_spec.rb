@@ -2,9 +2,12 @@ require "basket"
 
 describe Basket do
 
-  subject(:basket) { described_class.new(product_catalog: product_catalog) }
+  subject(:basket) { described_class.new(product_catalog: product_catalog,
+                                         delivery_charge_rules: delivery_charge_rules
+                                         ) }
 
-  let(:product_catalog)  { double(:product_catalog) }
+  let(:product_catalog)       { double(:product_catalog) }
+  let(:delivery_charge_rules) { double(:delivery_charge_rules) }
 
   describe "product catalog" do
 
