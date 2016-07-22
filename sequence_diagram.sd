@@ -1,0 +1,4 @@
+Basket:class
+Catalog:Class
+
+Basket:product_catalog=Catalog.avaliable_products( )
