@@ -25,7 +25,7 @@ describe Basket do
 
   describe "offers" do
     it "can be returned" do
-      
+      expect(basket.current_offers).to eq(current_offers)
     end
   end
 end

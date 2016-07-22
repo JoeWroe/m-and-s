@@ -31,7 +31,7 @@ describe "User Stories" do
     it "As a customer,
     So I get my discounts added,
     I'd like the basket to know about current offers." do
-      
+      expect(basket.current_offers).to eq(current_offers)
     end
   end
 end
