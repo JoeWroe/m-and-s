@@ -25,4 +25,13 @@ describe "User Stories" do
       expect(basket.delivery_charge_rules).to eq(delivery_charge_rules)
     end
   end
+
+  describe "Offers" do
+
+    it "As a customer,
+    So I get my discounts added,
+    I'd like the basket to know about current offers." do
+      
+    end
+  end
 end

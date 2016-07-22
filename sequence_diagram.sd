@@ -1,6 +1,8 @@
 Basket:class
 Catalog:Class
 DeliveryCharges:Class
+Offers:Class
 
 Basket:product_catalog=Catalog.product_catalog( )
 Basket:delivery_charge_rules=DeliveryCharges.delivery_charge_rules( )
+Basket:current_offers=Offers.current_offers( )

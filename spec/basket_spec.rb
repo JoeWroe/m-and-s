@@ -22,4 +22,10 @@ describe Basket do
       expect(basket.delivery_charge_rules).to eq(delivery_charge_rules)
     end
   end
+
+  describe "offers" do
+    it "can be returned" do
+      
+    end
+  end
 end
