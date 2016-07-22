@@ -1,6 +1,7 @@
 describe "User Stories" do
 
-  let(:basket) { Basket.new }
+  let(:basket)          { Basket.new(product_catalog: product_catalog) }
+  let(:product_catalog) { ProductCatalog.new }
 
   describe "User Story One" do
 

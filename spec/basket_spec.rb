@@ -2,7 +2,9 @@ require "basket"
 
 describe Basket do
 
-  subject(:basket) { described_class.new }
+  subject(:basket) { described_class.new(product_catalog: product_catalog) }
+
+  let(:product_catalog)  { double(:product_catalog) }
 
   describe "product catalog" do
 
