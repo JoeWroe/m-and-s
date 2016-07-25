@@ -1,6 +1,6 @@
 #SHOPPING BASKET
 
-##Marks & Spencer Tech Assignment
+##Tech Assignment
 
 ##Notes on submission
 
